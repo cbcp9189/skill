@@ -1,0 +1,17 @@
+# Copy this file to doc/gitbook-api-publish.yaml in the API repository.
+# Only entries with enabled: true may be synchronized.
+version: 1
+
+gitbook:
+  organizationId: 3PDTWkWHxUDpogC9f56l
+  siteId: site_Sa3ga
+  spaceId: qK8ynFtx4b30MZy26mrl
+  publicUrl: https://tiks-organization-2.gitbook.io/ebelong/api-reference/
+
+defaults:
+  excludePathPrefixes:
+    - /openapi/device/
+  protectedManualBlockPrefix: "人工维护区块 · "
+
+operations: []
+pages: []

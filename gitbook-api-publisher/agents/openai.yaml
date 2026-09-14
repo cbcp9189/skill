@@ -1,0 +1,7 @@
+interface:
+  display_name: "GitBook API 发布"
+  short_description: "按 operationId 白名单生成 GitBook 草稿并确认发布"
+  default_prompt: "Use $gitbook-api-publisher to inspect the approved SaaS API changes and create a GitBook draft."
+
+policy:
+  allow_implicit_invocation: true
